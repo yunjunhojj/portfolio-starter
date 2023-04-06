@@ -1,16 +1,16 @@
 import React from "react";
 
-import Logo from "../assets/logo.svg";
-
 const Header = () => {
   return (
     <header className="py-8">
       <div className="container mx-auto">
         <div className="flex justify-between items-start">
           <a href="#home">
-            <img src={Logo} alt="Logo" />
+            <h1 className="text-5xl font-bold ">Junho</h1>
           </a>
-          <button className="btn btn-sm">Work with me</button>
+          <a href="#contact">
+            <h2 className="text-2xl font-bold ">연락하기</h2>
+          </a>
         </div>
       </div>
     </header>

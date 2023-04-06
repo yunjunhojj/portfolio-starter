@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "../assets/avatar.svg";
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBlog, FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -34,7 +34,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] "
+              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] mt-4"
             >
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
@@ -50,37 +50,31 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 gap-6 flex flex-col "
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              voluptate, quod, quia, voluptates quae voluptatibus quibusdam
-              voluptatum quidem quas quos nemo. Quisquam, quae. Quisquam, quae.
+              <p>이 페이지는 저를 소개하는 웹사이트 입니다.</p>
+              <p>편한 마음으로 구경해주시면 감사하겠습니다.</p>
+              <p>이 웹사이트는 다음과 같은 기술 스택으로 이루어져 있습니다. </p>
+              <p>React, Framer Motion, Tailwind CSS, React Type Animation</p>
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0 "
+              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-sm">Contact me</button>
-              <a href="#home" className="text-gradient btn-link">
-                My portfolio
+              <a
+                href="https://amethyst-sodalite-bbf.notion.site/98090a2692e64e9ab55266ca6aa4befc"
+                className="text-gradient text-2xl btn-link"
+              >
+                노션 이력서 보러가기
               </a>
-            </motion.div>
-
-            <motion.div
-              variants={fadeIn("up", 0.7)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 "
-            >
-              <a href="#home">
+              <a href="https://github.com/yunjunhojj">
                 <FaGithub />
               </a>
-              <a href="#home">
-                <FaLinkedin />
+              <a href="https://velog.io/@yunjunhojj">
+                <FaBlog />
               </a>
             </motion.div>
           </div>
