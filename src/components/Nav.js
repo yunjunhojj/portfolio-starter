@@ -45,7 +45,7 @@ const Nav = () => {
           >
             <BsClipboardData />
           </Link>
-          <Link
+          {/* <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center "
             to="work"
             spy={true}
@@ -54,7 +54,7 @@ const Nav = () => {
             duration={500}
           >
             <BsBriefcase />
-          </Link>
+          </Link> */}
           <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center "
             to="contact"
