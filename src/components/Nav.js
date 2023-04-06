@@ -16,14 +16,19 @@ const Nav = () => {
           <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center "
             to="home"
+            spy={true}
+            activeClass="active"
             smooth={true}
             duration={500}
+            offset={-200}
           >
             <BiHomeAlt />
           </Link>
           <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center "
             to="about"
+            spy={true}
+            activeClass="active"
             smooth={true}
             duration={500}
           >
@@ -33,6 +38,8 @@ const Nav = () => {
           <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center "
             to="services"
+            spy={true}
+            activeClass="active"
             smooth={true}
             duration={500}
           >
@@ -41,6 +48,8 @@ const Nav = () => {
           <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center "
             to="work"
+            spy={true}
+            activeClass="active"
             smooth={true}
             duration={500}
           >
@@ -49,6 +58,8 @@ const Nav = () => {
           <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center "
             to="contact"
+            spy={true}
+            activeClass="active"
             smooth={true}
             duration={500}
           >
