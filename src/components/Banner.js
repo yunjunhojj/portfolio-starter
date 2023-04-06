@@ -1,6 +1,6 @@
 import React from "react";
 
-import Image from "../assets/avatar.svg";
+import Image from "../assets/junho_pic1.jpg";
 
 import { FaBlog, FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -82,7 +82,7 @@ const Banner = () => {
             variants={fadeIn("down", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
+            className="hidden lg:flex flex-1 max-w-[320px] max-h-[500px] lg:max-w-[382px] lg:max-h-[440px] overflow-hidden  rounded-full  "
           >
             <img src={Image} alt="avatar"></img>
           </motion.div>
