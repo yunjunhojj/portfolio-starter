@@ -13,7 +13,7 @@ const services = [
     position: "Auth, 프로젝트 상세페이지, 댓글 CRUD, 무한스크롤 등",
     team: "프론트엔드 5명 + 디자이너 1명",
     stack: "Next.js, styled-components, react-query, recoil",
-    gitLink: "github.com",
+    gitLink: "https://github.com/yunjunhojj/Codefolio",
     deployLink: "https://codefolio.vercel.app/",
   },
   {
@@ -22,7 +22,7 @@ const services = [
     position: "개인프로젝트로 프로젝트의 모든 부분을 담당했습니다.",
     team: "개인프로젝트",
     stack: "Next.js, styled-components, swr, node.js, express",
-    gitLink: "github.com",
+    gitLink: "https://github.com/yunjunhojj/pet-sns",
     deployLink: "https://codefolio.vercel.app/",
   },
   {
@@ -31,7 +31,7 @@ const services = [
     position: "디자인부터 프론트엔드 모든 부분을 담당했습니다.",
     team: "프론트엔드 1명 + 벡엔드 2명",
     stack: "React, styled-components, justand",
-    gitLink: "github.com",
+    gitLink: "https://github.com/TennisPartner/TennisPartner",
     deployLink: "https://codefolio.vercel.app/",
   },
 ];
