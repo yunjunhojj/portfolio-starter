@@ -13,7 +13,7 @@ import { fadeIn } from "../variants";
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
+      className="min-h-[85vh] lg:min-h-[78vh] flex items-center justify-center"
       id="home"
     >
       <div className="container mx-auto">
@@ -36,11 +36,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] mt-4"
             >
-              <span className="text-white mr-4">I am a</span>
+              <span className="text-white mr-4 text-[24px] lg:text-[60px]">
+                I am a
+              </span>
               <TypeAnimation
                 sequence={["Developer", 2000, "Frontend", 2000, "Korean", 2000]}
                 speed={50}
-                className="text-accent"
+                className="text-accent text-[24px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
                 wrapper="span"
                 repeat={Infinity}
               />
@@ -50,7 +52,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0 gap-6 flex flex-col "
+              className="mb-8 max-w-lg mx-auto lg:mx-0 gap-6 flex flex-col text-[16px] lg:text-[20px]"
             >
               <p>이 페이지는 저를 소개하는 웹사이트 입니다.</p>
               <p>편한 마음으로 구경해주시면 감사하겠습니다.</p>
@@ -61,7 +63,7 @@ const Banner = () => {
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <a

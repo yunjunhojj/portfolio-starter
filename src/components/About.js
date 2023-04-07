@@ -22,7 +22,7 @@ const About = () => {
           initial="hidden"
           animate={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
+          className="flex-1 bg-about bg-contain bg-no-repeat lg:h-[520px] h-[640px] mix-blend-lighten bg-top"
         ></motion.div>
         {/* text */}
         <motion.div
@@ -32,23 +32,21 @@ const About = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="flex-1"
         >
-          <h2 className="h2 text-accent">About me.</h2>
-          <h3 className="h3 mb-4"> asdffdfasdfasdfasd</h3>
-          <p className="mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptate, quod, quia, voluptates quae voluptatibus quibusdam
-            voluptatum quidem quas quos nemo. Quisquam, quae. Quisquam, quae.
+          <h2 className="h2 px-4  text-accent">About me.</h2>
+          <h3 className="h3 px-4 mb-4"> 안녕하세요 윤준호 입니다. </h3>
+          <p className="mb-6 px-4 text-s">
+            저는 안테나 연구원으로 3년간 일하고, 현재는 프론트엔드 개발자를
+            준비하고 있습니다. Next.js 와 React를 사용하여 웹사이트를 만들고
+            있습니다.
+          </p>
+          <p className="mb-20 px-4 text-s">
+            앞으로는, 다른 사람에게 잘 기술과 경험을 전달할 수 있는 개발자가
+            되고 싶습니다.
           </p>
           {/* stats */}
           <div className="flex gap-x-6 lg:gap-x-10 mb-12">
             <div>
-              <div className="text-[40px] font-tertiary text-gradient">
-                {inView ? <CountUp start={0} end={13} duration={3} /> : null}
-              </div>
-              <div className="font-primary text-sm tracking-[2px]">
-                YEARS OF <br />
-                EXPERIENCE
-              </div>
+              <div className="text-[40px] font-tertiary text-gradient"></div>
             </div>
           </div>
         </motion.div>
