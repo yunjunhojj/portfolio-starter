@@ -34,7 +34,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] mt-4"
+              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] mt-4  flex flex-col lg:flex-row lg:justify-center lg:items-center lg:gap-4"
             >
               <span className="text-white mr-4 text-[24px] lg:text-[60px]">
                 I am a
@@ -54,10 +54,12 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0 gap-6 flex flex-col text-[16px] lg:text-[20px]"
             >
-              <p>이 페이지는 저를 소개하는 웹사이트 입니다.</p>
-              <p>편한 마음으로 구경해주시면 감사하겠습니다.</p>
-              <p>이 웹사이트는 다음과 같은 기술 스택으로 이루어져 있습니다. </p>
-              <p>React, Framer Motion, Tailwind CSS, React Type Animation</p>
+              <span>이 페이지는 저를 소개하는 웹사이트 입니다.</span>
+              <span>편한 마음으로 구경해주세요.</span>
+              <span>사용된 기술스택은 다음과 같습니다.</span>
+              <span>
+                React, Framer Motion, Tailwind CSS, React Type Animation
+              </span>
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
