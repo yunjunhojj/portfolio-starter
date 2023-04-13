@@ -1,7 +1,5 @@
 import React from "react";
 
-import CountUp from "react-countup";
-
 import { useInView } from "react-intersection-observer";
 
 import { motion } from "framer-motion";
@@ -14,7 +12,7 @@ const About = () => {
   });
 
   return (
-    <section className="section" id="about" ref={ref}>
+    <section className="section flex justify-center " id="about" ref={ref}>
       <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
         {/* img */}
         <motion.div
@@ -24,7 +22,6 @@ const About = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="flex-1 bg-about bg-contain bg-no-repeat lg:h-[520px] h-[640px] mix-blend-lighten bg-top"
         ></motion.div>
-        {/* text */}
         <motion.div
           variants={fadeIn("left", 0.3)}
           initial="hidden"

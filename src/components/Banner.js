@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "../assets/junho_pic1.jpg";
 
-import { FaBlog, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBlog, FaGithub } from "react-icons/fa";
 
 import { TypeAnimation } from "react-type-animation";
 

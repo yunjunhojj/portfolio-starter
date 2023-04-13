@@ -23,7 +23,7 @@ const services = [
     team: "개인프로젝트",
     stack: "Next.js, styled-components, swr, node.js, express",
     gitLink: "https://github.com/yunjunhojj/pet-sns",
-    deployLink: "https://codefolio.vercel.app/",
+    deployLink: "https://code-folio.vercel.app/",
   },
   {
     title: "tennis-Partner",
